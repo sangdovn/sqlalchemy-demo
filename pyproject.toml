@@ -1,0 +1,16 @@
+[project]
+name = "sqlalchemy-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+indent = 4
+
+[tool.ruff]
+line-length = 88
+select = ["C", "E", "F", "W"]
